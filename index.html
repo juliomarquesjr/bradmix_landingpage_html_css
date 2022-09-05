@@ -17,26 +17,26 @@
 </head>
 
 <body>
-    <div class="imagem">
-        <div>
-            <img class="whats-balao" src="assets/img/whatsIcon.png" alt="WhatsApp Breadmix">
-        </div>
-        <div class="card-whats">
-            <h2>
-                <img class="whatsIcon" src="assets/img/whatsIcon.png" />
-                What's App Breadmix
-            </h2>
-            <form
-                onsubmit="window.location = 'https://api.whatsapp.com/send?phone=5551984100707&text=' + 'Nome:'+ nome.value  + ' Mensagem: ' + mensagem.value; return false;            "
-                method="post">
-                <label>Nome:</label>
-                <input id="nome" type="text" required>
-                <label>Mensagem:</label>
-                <textarea id="mensagem" cols="25" rows="6" required
-                    placeholder="Ola, gostaria de conversar sobre os produtos..."></textarea>
-                <button>Enviar Mensagem</button>
-            </form>
-        </div>
+    <div class="imagem"></div>
+    
+    <div>
+        <img class="whats-balao" src="assets/img/whatsIcon.png" alt="WhatsApp Breadmix">
+    </div>
+    <div class="card-whats">
+        <h2>
+            <img class="whatsIcon" src="assets/img/whatsIcon.png" />
+            What's App Breadmix
+        </h2>
+        <form
+            onsubmit="window.location = 'https://api.whatsapp.com/send?phone=5551984100707&text=' + 'Nome:'+ nome.value  + ' Mensagem: ' + mensagem.value; return false;            "
+            method="post">
+            <label>Nome:</label>
+            <input id="nome" type="text" required>
+            <label>Mensagem:</label>
+            <textarea id="mensagem" cols="25" rows="6" required
+                placeholder="Ola, gostaria de conversar sobre os produtos..."></textarea>
+            <button>Enviar Mensagem</button>
+        </form>
     </div>
     <script src="./assets/js/scripts.js"></script>
 </body>
