@@ -1,9 +1,9 @@
 .whats-balao {
     position: absolute;
   
-    width: 56px;
-    height: 56px;
-    right: 18px;
+    width: 48px;
+    height: 48px;
+    right: 24px;
     bottom: 22px;
   
     cursor: pointer;
@@ -14,12 +14,11 @@
     transition: 300ms;
   }
   
-  
   .card-whats {
     display: none;
     position: absolute;
-    bottom: 90px;
-    right: 16px;
+    bottom: 80px;
+    right: 24px;
     width: 250px;
     height: 320px;
     background-color: white;
