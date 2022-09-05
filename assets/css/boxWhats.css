@@ -1,0 +1,89 @@
+.whats-balao {
+    position: absolute;
+  
+    width: 56px;
+    height: 56px;
+    right: 18px;
+    bottom: 22px;
+  
+    cursor: pointer;
+  }
+  
+  .whats-balao:hover {
+    transform: scale(1.1);
+    transition: 300ms;
+  }
+  
+  
+  .card-whats {
+    display: none;
+    position: absolute;
+    bottom: 90px;
+    right: 16px;
+    width: 250px;
+    height: 320px;
+    background-color: white;
+  
+    border-style: solid;
+    border-radius: 8px;
+    border-color: #075e54;
+  
+    background-image: url("../img/fundoWhats.png");
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .card-whats h2 {
+    display: flex;
+  
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: whitesmoke;
+  
+    background-color: #075e54;
+    padding: 8px 8px;
+  }
+  
+  .card-whats .whatsIcon {
+    width: 22px;
+    height: 22px;
+    margin-right: 8px;
+  }
+  
+  .card-whats form {
+    display: flex;
+    flex-direction: column;
+  
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+  
+  .card-whats label {
+    margin-top: 12px;
+  }
+  
+  .card-whats input,
+  textarea {
+    margin-top: 6px;
+    padding: 4px;
+  
+    font-family: sans-serif;
+    font-size: 14px;
+    border-radius: 4px;
+    border: none;
+  }
+  
+  .card-whats button {
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    font-weight: bold;
+  
+    border-radius: 6px;
+    margin-top: 18px;
+    background-color: #128c7e;
+    border: 0px;
+    padding: 6px;
+  }
